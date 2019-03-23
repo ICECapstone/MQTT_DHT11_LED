@@ -13,7 +13,7 @@ Please change your SSID, password, pubTopic and subTopic as follows: <br>
  * pubTopicT = "GROUPNAME/temperature"  <br>
  * pubTopicH ="GROUPNAME/humidity"  <br>
  * subTopicLED = "GROUPNAME/LED"  <br>
-
+<br>
 Please use the following group names:
  * vCANTEEN  
  * LOCKER
@@ -23,6 +23,6 @@ Please use the following group names:
  * MONKOL
  
  <H2>Step3: Connect your MQTT broker and subscribe to the messages</H3>
- * Please subscribe to your published temperature/humidity topics. You should see the message appearing on the MQTT broker
- * Please publish a control message from your MQTT broker to your LED. Your LED should be turned ON/OFF accordingly.
+ * Please subscribe to your published temperature/humidity topics. You should see the message appearing on the MQTT broker <br>
+ * Please publish a control message from your MQTT broker to your LED. Your LED should be turned ON/OFF accordingly. <br>
 ![Screen Shot 2019-03-23 at 8 17 55 AM](https://user-images.githubusercontent.com/11530521/54859849-bc133100-4d44-11e9-9d00-39e5078ab262.png)
