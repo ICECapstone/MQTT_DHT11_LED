@@ -3,12 +3,13 @@
 In this lecture, you will learn to publish DHT11 readings from NodeMCU using MQTT, and control LED by listening to a published message.
 
 <H2>Step1: Connect NodeMCU, DHT11 and LED </H2> 
+Please  connect NodeMCU, DHT11 and LED as shown below. <br>
  * DHT11 - GPIO5  <br> 
  * LED - GPIO4  <br>
 ![IMG-8462](https://user-images.githubusercontent.com/11530521/54859738-8e79b800-4d43-11e9-8e4f-55dd2902818b.jpg)
 
 <H2>Step2: Upload the code to your NodeMCU </H2>
-Please change your SSID, password, pubTopic and subTopic as follows:
+Please change your SSID, password, pubTopic and subTopic as follows: <br>
  * pubTopicT = "GROUPNAME/temperature"  <br>
  * pubTopicH ="GROUPNAME/humidity"  <br>
  * subTopicLED = "GROUPNAME/LED"  <br>
